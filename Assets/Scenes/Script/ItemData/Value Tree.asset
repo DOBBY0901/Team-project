@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Value Tree
   m_EditorClassIdentifier: 
   itemName: "\uACE0\uAE09 \uB098\uBB34"
-  itemIcon: {fileID: 0}
+  itemIcon: {fileID: 21300000, guid: d14fd4cf519aea24c9a237de50403742, type: 3}
   itemtype: 0
   maxStack: 99

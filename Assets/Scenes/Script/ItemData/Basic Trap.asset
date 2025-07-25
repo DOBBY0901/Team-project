@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7f01eab9b2bd99443a63777063f07c16, type: 3}
-  m_Name: Black Tree
+  m_Name: Basic Trap
   m_EditorClassIdentifier: 
-  itemName: "\uD751\uB2E8 \uB098\uBB34"
-  itemIcon: {fileID: 21300000, guid: a860f1df87d4ae14e99767732d181465, type: 3}
-  itemtype: 0
+  itemName: "\uAE30\uBCF8 \uB36B"
+  itemIcon: {fileID: 21300000, guid: d870abf246fc3154698e80177dc40297, type: 3}
+  itemtype: 1
   maxStack: 99
