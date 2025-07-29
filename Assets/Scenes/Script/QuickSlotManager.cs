@@ -7,7 +7,6 @@ public class QuickSlotManager : MonoBehaviour
 {
     public QuickSlot[] quickSlots; //10개의 슬롯 등록
 
-    public ItemData testitem; //테스트 
 
     // Start is called before the first frame update
     void Start()
@@ -20,8 +19,6 @@ public class QuickSlotManager : MonoBehaviour
             else
                 quickSlots[i].SetKeyText("0");
             
-
-            quickSlots[i].SetItem(testitem);
         }
 
 

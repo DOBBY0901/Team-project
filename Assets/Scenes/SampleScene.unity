@@ -754,6 +754,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   iconImage: {fileID: 1911723321}
   countText: {fileID: 43899617}
+  slotIndex: 0
+  parentCanvas: {fileID: 1238851934}
 --- !u!1 &228578933 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6598858345657666036, guid: 6acd44b2ebb597d408faeb190e600ff7, type: 3}
@@ -778,6 +780,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   iconImage: {fileID: 1075925281}
   countText: {fileID: 1481507447}
+  slotIndex: 0
+  parentCanvas: {fileID: 1238851934}
 --- !u!114 &235633914 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6598858347373695033, guid: 6acd44b2ebb597d408faeb190e600ff7, type: 3}
@@ -978,6 +982,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   iconImage: {fileID: 876117606}
   countText: {fileID: 927205907}
+  slotIndex: 0
+  parentCanvas: {fileID: 1238851934}
 --- !u!1001 &504017382
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1143,6 +1149,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   iconImage: {fileID: 1075216489}
   countText: {fileID: 1719415148}
+  slotIndex: 0
+  parentCanvas: {fileID: 1238851934}
 --- !u!1 &657781598 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6598858345657666036, guid: 6acd44b2ebb597d408faeb190e600ff7, type: 3}
@@ -1167,6 +1175,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   iconImage: {fileID: 1834479172}
   countText: {fileID: 1168249131}
+  slotIndex: 0
+  parentCanvas: {fileID: 1238851934}
 --- !u!1 &682122344 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6598858345657666036, guid: 6acd44b2ebb597d408faeb190e600ff7, type: 3}
@@ -1191,6 +1201,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   iconImage: {fileID: 1102065943}
   countText: {fileID: 981979966}
+  slotIndex: 0
+  parentCanvas: {fileID: 1238851934}
 --- !u!1001 &694327126
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1417,6 +1429,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   iconImage: {fileID: 1589971526}
   countText: {fileID: 1505068923}
+  slotIndex: 0
+  parentCanvas: {fileID: 1238851934}
 --- !u!1001 &716597588
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1663,6 +1677,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   iconImage: {fileID: 1476664349}
   countText: {fileID: 1325896554}
+  slotIndex: 0
+  parentCanvas: {fileID: 1238851934}
 --- !u!1 &854545244 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6598858345657666036, guid: 6acd44b2ebb597d408faeb190e600ff7, type: 3}
@@ -1687,6 +1703,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   iconImage: {fileID: 1922563204}
   countText: {fileID: 1989009246}
+  slotIndex: 0
+  parentCanvas: {fileID: 1238851934}
 --- !u!114 &876117606 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6598858347373695033, guid: 6acd44b2ebb597d408faeb190e600ff7, type: 3}
@@ -1722,6 +1740,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   iconImage: {fileID: 964398041}
   countText: {fileID: 696379829}
+  slotIndex: 0
+  parentCanvas: {fileID: 1238851934}
 --- !u!224 &896659227 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5818943661496250947, guid: d3f0709659096604bb23fa89eb896365, type: 3}
@@ -1762,6 +1782,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   iconImage: {fileID: 1175521280}
   countText: {fileID: 1388571808}
+  slotIndex: 0
+  parentCanvas: {fileID: 1238851934}
 --- !u!1001 &908918436
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1933,6 +1955,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   iconImage: {fileID: 1315752790}
   countText: {fileID: 999755026}
+  slotIndex: 0
+  parentCanvas: {fileID: 1238851934}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -2063,6 +2087,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   iconImage: {fileID: 1961494938}
   countText: {fileID: 964736300}
+  slotIndex: 0
+  parentCanvas: {fileID: 1238851934}
 --- !u!114 &981979966 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6598858347052191181, guid: 6acd44b2ebb597d408faeb190e600ff7, type: 3}
@@ -2506,6 +2532,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   iconImage: {fileID: 3254731}
   countText: {fileID: 910480843}
+  slotIndex: 0
+  parentCanvas: {fileID: 1238851934}
 --- !u!1 &1084490313 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6598858345657666036, guid: 6acd44b2ebb597d408faeb190e600ff7, type: 3}
@@ -2530,6 +2558,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   iconImage: {fileID: 362627264}
   countText: {fileID: 402238858}
+  slotIndex: 0
+  parentCanvas: {fileID: 1238851934}
 --- !u!114 &1102065943 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6598858347373695033, guid: 6acd44b2ebb597d408faeb190e600ff7, type: 3}
@@ -2969,6 +2999,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   iconImage: {fileID: 1561672998}
   countText: {fileID: 284862850}
+  slotIndex: 0
+  parentCanvas: {fileID: 1238851934}
 --- !u!1 &1238851931
 GameObject:
   m_ObjectHideFlags: 0
@@ -3748,6 +3780,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   iconImage: {fileID: 26594656}
   countText: {fileID: 1424729525}
+  slotIndex: 0
+  parentCanvas: {fileID: 1238851934}
 --- !u!1 &1421163505
 GameObject:
   m_ObjectHideFlags: 0
@@ -3948,6 +3982,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   iconImage: {fileID: 1922268241}
   countText: {fileID: 1317448018}
+  slotIndex: 0
+  parentCanvas: {fileID: 1238851934}
 --- !u!114 &1476664349 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6598858347373695033, guid: 6acd44b2ebb597d408faeb190e600ff7, type: 3}
@@ -4483,6 +4519,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   iconImage: {fileID: 235633914}
   countText: {fileID: 1655445842}
+  slotIndex: 0
+  parentCanvas: {fileID: 1238851934}
 --- !u!1001 &1827030029
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5124,7 +5162,6 @@ MonoBehaviour:
   - {fileID: 1503415689}
   - {fileID: 618564145}
   - {fileID: 1159070028}
-  testitem: {fileID: 11400000, guid: e0f7370e126a38a408f05cee3aaa2920, type: 2}
 --- !u!4 &1937814701
 Transform:
   m_ObjectHideFlags: 0
@@ -5172,44 +5209,64 @@ MonoBehaviour:
   slots:
   - item: {fileID: 0}
     count: 0
+    parentCanvas: {fileID: 0}
   - item: {fileID: 0}
     count: 0
+    parentCanvas: {fileID: 0}
   - item: {fileID: 0}
     count: 0
+    parentCanvas: {fileID: 0}
   - item: {fileID: 0}
     count: 0
+    parentCanvas: {fileID: 0}
   - item: {fileID: 0}
     count: 0
+    parentCanvas: {fileID: 0}
   - item: {fileID: 0}
     count: 0
+    parentCanvas: {fileID: 0}
   - item: {fileID: 0}
     count: 0
+    parentCanvas: {fileID: 0}
   - item: {fileID: 0}
     count: 0
+    parentCanvas: {fileID: 0}
   - item: {fileID: 0}
     count: 0
+    parentCanvas: {fileID: 0}
   - item: {fileID: 0}
     count: 0
+    parentCanvas: {fileID: 0}
   - item: {fileID: 0}
     count: 0
+    parentCanvas: {fileID: 0}
   - item: {fileID: 0}
     count: 0
+    parentCanvas: {fileID: 0}
   - item: {fileID: 0}
     count: 0
+    parentCanvas: {fileID: 0}
   - item: {fileID: 0}
     count: 0
+    parentCanvas: {fileID: 0}
   - item: {fileID: 0}
     count: 0
+    parentCanvas: {fileID: 0}
   - item: {fileID: 0}
     count: 0
+    parentCanvas: {fileID: 0}
   - item: {fileID: 0}
     count: 0
+    parentCanvas: {fileID: 0}
   - item: {fileID: 0}
     count: 0
+    parentCanvas: {fileID: 0}
   - item: {fileID: 0}
     count: 0
+    parentCanvas: {fileID: 0}
   - item: {fileID: 0}
     count: 0
+    parentCanvas: {fileID: 0}
   uiSlots:
   - {fileID: 1205601309}
   - {fileID: 1084490315}
@@ -5282,6 +5339,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   iconImage: {fileID: 1518551048}
   countText: {fileID: 1405923827}
+  slotIndex: 0
+  parentCanvas: {fileID: 1238851934}
 --- !u!114 &1989009246 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6598858347052191181, guid: 6acd44b2ebb597d408faeb190e600ff7, type: 3}

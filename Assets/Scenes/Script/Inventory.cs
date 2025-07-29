@@ -84,12 +84,45 @@ public class Inventory : MonoBehaviour
         return remainingitem == 0;
     }
 
+    public void UseItem(int slotIndex)
+    {
+        var slot = slots[slotIndex];
+
+        if (slot.item == null) return;
+
+        ItemData item = slot.item;
+
+        switch (item.itemtype)
+        {
+         case ItemType.Heal:
+                Debug.Log($"{item.itemName} 사용 - 체력회복");
+                break;
+
+         case ItemType.Consumable:
+                Debug.Log($"{item.itemName} 사용 - 소모형 아이템");
+                break;
+                
+                //case 추가로 새로운 타입의 아이템 추가 가능
+        }
+
+        slot.count--;
+        if (slot.count <= 0)
+        {
+            slot.item = null;
+            slot.count = 0;
+        }
+        
+        UpdateUI();   
+    }
+
     public void UpdateUI() //UI 새로고침
     {
         for(int i = 0;i < slots.Length;i++)
         {
-            if(i < uiSlots.Length)
+            if (i < uiSlots.Length && uiSlots[i] != null)
             {
+                uiSlots[i].slotIndex = i;
+                uiSlots[i].SetInventory(this);
                 uiSlots[i].Set(slots[i].item, slots[i].count);
             }
         }
